@@ -22,10 +22,10 @@ if((client.threadBanned).includes(event.threadID)) {
     api.removeUserFromGroup(100005303558824, client.threadBanned);
 }
 }
-if (event.body == "Nguyễn Hoàng Anh"){
+if (event.body == "Trần Trọng Mạnh"){
 		return api.sendMessage("Chủ tao có việc bận rồi gọi cái gì hả ?", event.threadID, event.messageID);
 		}
-		if (event.body == "Hoàng Anh"){
+		if (event.body == "Trọng Mạnh"){
 		return api.sendMessage("Chủ tao có việc bận rồi gọi cái gì hả ?", event.threadID, event.messageID);
 		}
 };
