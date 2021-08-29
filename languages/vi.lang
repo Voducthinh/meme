@@ -58,11 +58,11 @@ users.needObject=Phải là một Object
 
 # includes/handle/handleCommand.js
 
-handleCommand.userBanned=Hiện tại bạn đang bị Admin cấm sử dụng bot!\n%2\n%1\nLiên hệ Admin để biết thêm chi tiết :\nHttps://www.facebook.com/Admin.HoangAnh.Booking
-handleCommand.threadBanned=Hiện tại nhóm của bạn đang bị Admin cấm sử dụng bot!\n%2\n%1\nLiên hệ Admin để biết thêm chi tiết :\nHttps://www.facebook.com/Admin.HoangAnh.Booking
+handleCommand.userBanned=Hiện tại bạn đang bị Admin cấm sử dụng bot!\n%2\n%1\nLiên hệ Admin để biết thêm chi tiết :\nHttps://www.facebook.com/ttm130
+handleCommand.threadBanned=Hiện tại nhóm của bạn đang bị Admin cấm sử dụng bot!\n%2\n%1\nLiên hệ Admin để biết thêm chi tiết :\nHttps://www.facebook.com/ttm130
 handleCommand.commandNotExist=( \_/)\n( •_•)\n// >🧠  nè lắp vào mà dùng cho bớt óc chó rồi hãy sài bot nha con gà 😏.
-handleCommand.commandThreadBanned=Nhóm bạn đã bị cấm sử dụng lệnh "%1"  Liên hệ Admin để biết thêm chi tiết.\nhttps://www.facebook.com/Admin.HoangAnh.Booking
-handleCommand.commandUserBanned=Bạn đã bị cấm sử dụng lệnh "%1"  Liên hệ Admin để biết thêm chi tiết.\nhttps://www.facebook.com/Admin.HoangAnh.Booking\n%2
+handleCommand.commandThreadBanned=Nhóm bạn đã bị cấm sử dụng lệnh "%1"  Liên hệ Admin để biết thêm chi tiết.\nhttps://www.facebook.com/ttm130
+handleCommand.commandUserBanned=Bạn đã bị cấm sử dụng lệnh "%1"  Liên hệ Admin để biết thêm chi tiết.\nhttps://www.facebook.com/ttm130\n%2
 handleCommand.threadNotAllowNSFW=Nhóm của bạn không được phép sử dụng những lệnh NSFW
 handleCommand.cantGetInfoThread=Không thể lấy thông tin của nhóm, lỗi: %1
 handleCommand.permssionNotEnough=Bạn tuổi lồn dùng được lệnh "%1" \n( Lệnh của Admin hoặc Quản Trị Viên mới được phép dùng )
@@ -101,4 +101,4 @@ handleSchedule.exectuteError=Đã xảy ra lỗi không mong muốn trong lúc s
 
 # utils/index.js
 
-utils.throwError=❎Dùng lệnh cũng ngu, vui lòng sử dụng %1help %2 để biết thêm chi tiết cách sử dụng hoặc liên hệ Admin để biết thêm chi tiết.\nhttps://www.facebook.com/Admin.HoangAnh.Booking
+utils.throwError=❎Dùng lệnh cũng ngu, vui lòng sử dụng %1help %2 để biết thêm chi tiết cách sử dụng hoặc liên hệ Admin để biết thêm chi tiết.\nhttps://www.facebook.com/ttm130
