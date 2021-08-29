@@ -13,12 +13,10 @@
     "EMAIL": "",
     "PASSWORD": "",
     "OTPKEY": "",
-    "BOTNAME": "Bot Hoàng Anh",
-    "PREFIX": "-",
+    "BOTNAME": "TranTrongManh",
+    "PREFIX": "/",
     "ADMINBOT": [
-        "100005303558824",
-        "100004434344115",
-        "100059700802828"
+        "100052305047129"
     ],
     "DATABASE": {
         "sqlite": {
