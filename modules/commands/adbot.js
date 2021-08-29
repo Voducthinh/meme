@@ -27,7 +27,7 @@ var callback = () => api.sendMessage(
 🌸 Tính cách: Bên ngoài lạnh lùng boiz kiểu Hàn Quốc bên trong ít nói
 🌐 Facebook: Https://www.facebook.com/ttm130
 🌀 Sở thích: Chơi game, lập trình blabla, ăn, ngủ
-👉 Contact: Https://trantrongmanh2004@gmail.com`,
+👉 Contact: trantrongmanh2004@gmail.com`,
     attachment: fs.createReadStream(__dirname + "/cache/1.png")}, event.threadID, () => 
     fs.unlinkSync(__dirname + "/cache/1.png"));  
       return request(
