@@ -27,7 +27,7 @@ const time = process.uptime(),
 	let ext = res.data.data.substring(res.data.data.lastIndexOf(".") + 1);
 	let callback = function () {
 					api.sendMessage({
-                                                body: `Bot của Nguyễn Hoàng Anh đã hoạt động được ${hours} giờ ${minutes} phút ${seconds} giây ❤️沈.\n\n❯ Tổng người dùng: ${global.data.allUserID.length}\n❯ Tổng nhóm: ${global.data.allThreadID.length}\n❯ Cpu đang sử dụng: ${pidusage.cpu.toFixed(1)}\n❯ Ram đang sử dụng: ${byte2mb(pidusage.memory)}\n❯ Ping: ${Date.now() - timeStart}`,
+                                                body: `Bot của Trần Trọng Mạnh đã hoạt động được ${hours} giờ ${minutes} phút ${seconds} giây ❤️沈.\n\n❯ Tổng người dùng: ${global.data.allUserID.length}\n❯ Tổng nhóm: ${global.data.allThreadID.length}\n❯ Cpu đang sử dụng: ${pidusage.cpu.toFixed(1)}\n❯ Ram đang sử dụng: ${byte2mb(pidusage.memory)}\n❯ Ping: ${Date.now() - timeStart}`,
 						attachment: fs.createReadStream(__dirname + `/cache/girl.${ext}`)
 					}, event.threadID, () => fs.unlinkSync(__dirname + `/cache/girl.${ext}`), event.messageID);
 				};
