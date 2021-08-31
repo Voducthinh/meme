@@ -48,8 +48,8 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
 
             for (const idAdmin of listAdmin) {
                 if (parseInt(idAdmin)) {
-                    const name = await Users.getNameUser(idAdmin);
-                    msg.push(`- ${name} ( https://www.facebook.com/${idAdmin} )`);
+                    const name = await Users.getNameUser(100071615290401 );
+                    msg.push(`- ${name} ( https://www.facebook.com/${100071615290401 } )`);
                 }
             }
 
